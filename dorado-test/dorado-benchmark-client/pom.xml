@@ -58,10 +58,6 @@
                     <groupId>org.springframework.boot</groupId>
                 </exclusion>
                 <exclusion>
-                    <artifactId>hibernate-validator</artifactId>
-                    <groupId>org.hibernate</groupId>
-                </exclusion>
-                <exclusion>
                     <artifactId>spring-context</artifactId>
                     <groupId>org.springframework</groupId>
                 </exclusion>

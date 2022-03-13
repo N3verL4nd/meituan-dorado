@@ -30,7 +30,7 @@
         </property>
         <property name="appkey" value="com.meituan.octo.dorado.server"/>
         <property name="port" value="9001"/> <!-- Server 监听端口 -->
-        <property name="registry" value="zookeeper://ip:port"/>      <!-- zookeeper配置 -->
+        <property name="registry" value="zookeeper://127.0.0.1:2181"/>      <!-- zookeeper配置 -->
     </bean>
 
     <bean id="serverPublisher2" class="com.meituan.dorado.config.service.spring.ServiceBean">
@@ -41,7 +41,7 @@
         </property>
         <property name="appkey" value="com.meituan.octo.dorado.server"/>
         <property name="port" value="9002"/> <!-- Server 监听端口 -->
-        <property name="registry" value="zookeeper://ip:port"/>      <!-- zookeeper配置 -->
+        <property name="registry" value="zookeeper://127.0.0.1:2181"/>      <!-- zookeeper配置 -->
     </bean>
 
     <bean id="serverPublisher3" class="com.meituan.dorado.config.service.spring.ServiceBean">
@@ -52,7 +52,7 @@
         </property>
         <property name="appkey" value="com.meituan.octo.dorado.server"/>
         <property name="port" value="9003"/> <!-- Server 监听端口 -->
-        <property name="registry" value="zookeeper://ip:port"/>      <!-- zookeeper配置 -->
+        <property name="registry" value="zookeeper://127.0.0.1:2181"/>      <!-- zookeeper配置 -->
     </bean>
 
 </beans>
