@@ -33,13 +33,10 @@
         <module>dorado-core-default</module>
         <module>dorado-transport</module>
         <module>dorado-protocol</module>
-        <module>dorado-trace</module>
     </modules>
 
     <properties>
         <dorado.version>${project.version}</dorado.version>
-        <octo-mns.version>1.0.0</octo-mns.version>
-        <cat.version>3.0.0</cat.version>
 
         <commons-lang3>3.7</commons-lang3>
         <netty.version>4.1.25.Final</netty.version>
@@ -74,19 +71,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <!-- Octo开源组件 -->
-                <groupId>com.meituan.octo</groupId>
-                <artifactId>mns-invoker</artifactId>
-                <version>${octo-mns.version}</version>
-            </dependency>
-            <dependency>
-                <!-- 美团开源实时监控平台 https://github.com/dianping/cat -->
-                <groupId>com.dianping.cat</groupId>
-                <artifactId>cat-client</artifactId>
-                <version>${cat.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>

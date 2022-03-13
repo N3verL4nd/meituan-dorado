@@ -27,7 +27,6 @@
     <artifactId>dorado-registry</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>dorado-registry-mns</module>
         <module>dorado-registry-zookeeper</module>
         <module>dorado-registry-mock</module>
     </modules>
